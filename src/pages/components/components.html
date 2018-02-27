@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Components List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="action-sheets-basic-page">
+	<button ion-button block (click)="presentActionSheet()">
+		Show Action Sheet
+	</button>
+	
+	<button ion-button block (click)="showAlert()">
+		Show Basic Alert
+	</button>
+</ion-content>
